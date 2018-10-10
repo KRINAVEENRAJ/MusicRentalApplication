@@ -1,0 +1,24 @@
+﻿@model Music.ViewModel.RandomViewModel
+@{
+    ViewBag.Title = "RamdomView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (@Model.Customer.Count > 0)
+{
+    <text>No Rental Movies at this time Can you please try again later! </text>
+
+}
+else
+{
+    <ul>
+        @foreach (var customer in Model.Customer)
+        {
+            <li>@customer.CustomerId</li>
+
+        }
+        
+
+    </ul>
+}
+

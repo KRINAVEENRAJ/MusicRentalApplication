@@ -1,0 +1,25 @@
+﻿@model Music.ViewModel.RandomViewModel
+@{
+    ViewBag.Title = "Rndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Rndex</h2>
+@if (@Model.Customer.Count < 0)
+{
+    <text>No Rental Movies at this time Can you please try again later! </text>
+
+}
+else
+{
+    <ul>
+        @foreach (var customer in Model.Customer)
+{
+    <h1>
+        <li>@customer.CustomerId</li>
+    </h1>
+}
+    </ul>
+}
+
+
