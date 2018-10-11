@@ -9,5 +9,7 @@ namespace Music.Models
     {
         public Guid CustomerId { get; set; }
         public string CustomerName { get; set; }
+        public MembershipType MembershipType { get; set; }
+        public int MembershipTypeId { get; set; }
     }
 }

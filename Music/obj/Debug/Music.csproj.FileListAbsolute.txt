@@ -55,3 +55,4 @@ F:\Music\Music\obj\Debug\Music.dll
 F:\Music\Music\obj\Debug\Music.pdb
 F:\Music\Music\obj\Debug\Music.Migrations.initial.resources
 F:\Music\Music\obj\Debug\Music.csproj.GenerateResource.Cache
+F:\Music\Music\obj\Debug\Music.Migrations.Membership.resources
